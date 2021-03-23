@@ -40,7 +40,7 @@ model = naive_model()
 
 app = FastAPI(
     title="311 toy service api",
-    description="311 toy service API for Packt Python 3.7 book",
+    description="311 toy service API ",
     version="0.1.0",
 )
 
