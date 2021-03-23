@@ -3,7 +3,7 @@ from glob import glob
 import json
 
 
-def _read_all_data(root_path="../Chapter16/data/311/2019/06"):
+def _read_all_data(root_path="../data/311/2019/06"):
     files = glob(root_path + "/**.csv")
     datas = []
     for file in files:
